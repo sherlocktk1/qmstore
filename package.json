@@ -1,1 +1,23 @@
-{"name":"scout-dispatch-board-v1-1","private":true,"version":"1.1.0","type":"module","scripts":{"dev":"vite","build":"vite build","preview":"vite preview"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest"}}
+{
+  "name": "scout-dispatch-board-v1-1",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "homepage": "https://sherlocktk1.github.io/qmstore",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+    }
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
