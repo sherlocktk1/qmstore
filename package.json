@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.1.0",
   "type": "module",
-  "homepage": "https://sherlocktk1.github.io/qmstore",
+  "homepage": "sherlocktk1.github.io/qmstore",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
